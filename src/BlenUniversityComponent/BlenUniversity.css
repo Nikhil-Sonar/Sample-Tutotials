@@ -1,0 +1,110 @@
+.Blen-university{
+    padding: 106px 0px;
+    background-color: #f6f6f9;
+}
+.Blen-university-card{
+   padding: 0px 50px;
+   margin: 0px 20px;
+}
+.Blen-university-card-text-heading{
+   text-align: center; 
+   font-size: calc(26px + (40 - 26)*((100vw - 320px)/(2000 - 320)));
+   font-weight: 700;
+   font-family: 'GothamGreek', sans-serif;
+   color: #2b2a34;
+   margin-bottom: 20px;
+}
+.Blen-university-card-text-heading-para{
+    text-align: center; 
+    font-size: 18px;
+    font-family: 'GothamGreek', sans-serif;
+    color: #2b2a34;
+ }
+.Blen-university-card-text{
+    display: flex;
+    justify-content: center;
+}
+.IBDP-text{
+    background: linear-gradient(90deg, rgba(139,81,237,1) 0%, rgba(88,110,224,1) 100%);
+    color: #fff;
+    padding: 2px 7px 2px 6px;
+    border-radius: 5px;
+}
+.Blen-university-card-data-flx{
+    display: flex;
+}
+.Blen-university-card-data{
+    margin-top: 30px;
+}
+.Blen-university-card-data-one,.Blen-university-card-data-two,.Blen-university-card-data-three,.Blen-university-card-data-four,.Blen-university-card-data-five{
+    text-align: center;
+    font-family: 'GothamGreek', sans-serif;
+    font-size: 15px;
+    background-color: #99a4df;
+    border-radius: 20px;
+    box-sizing: border-box;
+    left: 50%;
+    overflow: hidden;
+    padding: 50px 0;
+    top: 50%;
+    width: 100%;
+}
+.Blen-university-card-data-one h2, .Blen-university-card-data-two h2, .Blen-university-card-data-three h2, .Blen-university-card-data-four h2, .Blen-university-card-data-five h2{
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: calc(18px + (24 - 18)*((100vw - 320px)/(2000 - 320)));
+    font-weight: 700;
+}
+.Blen-university-card-btn a{
+    background-color: #334ac0;
+    padding: 15px calc(40px + (60 - 40)*((100vw - 320px)/(2000 - 320)));
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 #ccc;
+    font-family: 'GothamGreek', sans-serif;
+}
+.Blen-university-card-btn{
+    display: flex;
+    justify-content: center;
+}
+.icon-clr{
+    color: #781ce9;
+}
+.img-icon-tutor{
+    height: auto;
+}
+.Blen-university-card-data-one:hover, .Blen-university-card-data-two:hover, .Blen-university-card-data-three:hover, .Blen-university-card-data-four:hover{
+    width: 130%;
+    background-color: #6967e4; 
+}
+/* .Blen-university-card-data:hover .img-icon {
+    height: 110px;
+  } */
+.Blen-university-card-btn a:hover{
+    color: #334ac0;
+    background-color: #fff;
+    border: 2px solid #334ac0;
+    box-shadow: 0 0 10px 0 #ccc;
+  }
+  .Blen-university-card-text-heading-one{
+  float: left;
+  font-size: calc(32px + (60 - 32)*((100vw - 320px)/(2000 - 320)));
+  font-weight: 700;
+  margin: 0 0 20px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  font-family: 'GothamGreek', sans-serif;
+  }
+  .Blen-university-text{
+    margin: 15px 0 30px;
+    color: white;
+  }
+.active{
+    width: 50%;
+}

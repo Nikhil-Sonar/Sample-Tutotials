@@ -1,0 +1,70 @@
+.section-1{
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e2e2;
+}
+
+.header, .subject-text, .header-login-right{
+    display: flex;
+}
+.header{
+    margin: 0px 19.6px;
+    padding: 8px 50px;
+}
+.subject-text{
+    justify-content: center;
+}
+.header-login-right{
+    justify-content: right;
+    width: 30%;
+    align-items: center;
+}
+.header-blen-left{
+    width: 30%;
+    align-items: center;
+    display: flex;
+}
+.blen-text{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.subject-text-Subjects, .subject-text-IBResources, .subject-text-Tutors, .subject-text-Students, .subject-text-Pricing{
+    padding: 18px 30px;
+    color: #2b2a34;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: sans-serif
+}
+.header-login-right-login, .header-login-right-signup{
+    padding: 10px 23px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif
+    /* font-size: 15px;
+    font-weight: 700; */
+}
+.header-login-right-login{
+    background-color: #fff;
+    color: #334ac0;
+    box-shadow: 0 0 5px 0 #ccc;
+    border-radius: 5px;
+}
+.header-login-right-signup{
+    box-shadow: 0 0 5px 0 #ccc;
+    color: #fff;
+    background-color: #334ac0;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+/* .on-hover-active{
+    text-underline-position: under;
+    text-decoration: underline !important;
+} */
+.subject-text-Subjects:hover ,.subject-text-IBResources:hover, .subject-text-Tutors:hover, .subject-text-Students:hover, .subject-text-Pricing:hover{
+    text-underline-position: under;
+    text-decoration: underline !important;
+    text-decoration-color: #d6d6d7;
+}

@@ -1,0 +1,165 @@
+.Blen-footer-card-flx {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Blen-footer-card {
+    border-radius: 5px;
+}
+
+.Blen-footer-card-flx-12month,
+.Blen-footer-card-flx-1month,
+.Blen-footer-card-flx-3month,
+.Blen-footer-card-flx-unlimited {
+    text-align: left;
+    padding: 25px 30px 25px 20px;
+    border-radius: 4px;
+    margin-right: 14px;
+}
+
+.Blen-footer-card-flx-1month {
+    max-width: 269px;
+}
+
+.Blen-footer-card-flx-free-trial {
+    width: 59%;
+    padding: 15px 30px 0px 0px;
+}
+
+.Blen-footer {
+    padding: 0px 50px;
+    margin: 0px 20px;
+}
+
+.Blen-footer-card-flx-free-trial-heading h1 {
+    font-size: calc(26px + (40 - 26)*((100vw - 320px)/(2000 - 320)));
+}
+
+.Blen-footer-card-flx-free-trial-bold {
+    font-weight: bolder;
+}
+
+.Blen-footer-card-flx-free-trial-btn a {
+    color: #334ac0;
+    padding: 15px calc(40px + (60 - 40)*((100vw - 320px)/(2000 - 320)));
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 0 5px 0 #ccc;
+    border-radius: 5px
+}
+
+.subs-card-align {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ftsize-dis {
+    font-size: 16px;
+    margin: 16px 0px 0px 0px;
+}
+
+.ftsize-dollor {
+    font-size: calc(26px + (40 - 26)*((100vw - 320px)/(2000 - 320)));
+    font-family: 'GothamGreek', sans-serif;
+    font-weight: 800;
+}
+
+.ftsize-below-txt {
+    font-size: 7px;
+    margin: 3px 0 0;
+}
+
+.ftsize-dollor-height {
+    line-height: 0.8;
+    margin-bottom: 0px;
+}
+
+.ftsize-heading {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Blen-footer-card-flx-free-trial-btn a:hover {
+    background-color: #334ac0;
+    font-weight: 800;
+    color: #fff;
+}
+
+.blen-mr-btm {
+    margin-bottom: 30px;
+}
+
+.Blen-footer-card-flx-1month-discription-search {
+    display: flex;
+    font-size: 11px;
+    line-height: 1.5;
+    margin-top: 3px;
+}
+
+.Blen-footer-card-flx-1month-discription-search input {
+    margin: -32px 12px 0 0;
+}
+
+.Blen-footer-card-flx-1month-discription-social-m {
+    margin-top: 20px;
+    display: flex;
+}
+
+.Blen-footer-card-flx-1month-discription-social-m img {
+    margin-right: 15px;
+}
+
+.subbutton{
+    font-size: 23px;
+    background-color: #99a4df;
+    color: white;
+    padding: 1.8px 12px 6.3px 12px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+}
+.blen-input-type{
+    padding: 2.8px 10px 0.7px 10px;
+    height: 30px;
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid gainsboro;
+    width: 73%;
+}
+
+.subbutton:hover{
+    background-color: #334ac0;
+}
+
+.contact-us-text{
+    color: #334ac0;
+    font-weight: 700;
+    font-size: 18px;
+}
+.blen-sticy-card{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.blen-sticy-card button{
+    padding: 10px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #0F9D58;
+    font-size: 15px;
+}
+.section-13{
+    /* position: fixed; */
+    width: 100%;
+    background-color: #334ac0;
+}
+.Blen-footer-card-text p{
+    margin-bottom: 2px;
+}
+.ms-size-txt{
+    font-size: 35px;
+}
+.ms-com-link a{
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+}

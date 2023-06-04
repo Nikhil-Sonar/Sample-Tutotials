@@ -1,0 +1,105 @@
+.Blen-ranked-card {
+    padding: 25px 55px;
+    background: linear-gradient(140deg, rgba(87, 109, 223, 1) 0%, rgba(136, 81, 235, 1) 100%);
+    border-radius: 5px;
+}
+
+.Blen-ranked-card-flx-12month,
+.Blen-ranked-card-flx-1month,
+.Blen-ranked-card-flx-3month,
+.Blen-ranked-card-flx-unlimited {
+    text-align: center;
+    padding: 25px 10px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.Blen-ranked-card-flx-free-trial {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Blen-ranked {
+    padding: 0px 50px;
+    margin: 0px 20px 106px;
+}
+
+.Blen-ranked-card-flx-free-trial-heading h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 18px;
+}
+
+.Blen-ranked-card-flx-free-trial-bold {
+    font-weight: bolder;
+}
+
+.Blen-ranked-card-flx-free-trial-btn a {
+    background-color: #fff;
+    color: #334ac0;
+    padding: 15px calc(40px + (60 - 40)*((100vw - 320px)/(2000 - 320)));
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 0 5px 0 #ccc;
+    border-radius: 5px
+}
+
+.subs-card-align {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ftsize-dis {
+    font-size: 11px;
+}
+
+.ftsize-dis {
+    margin: 25px 0px 35px 0px;
+
+}
+
+.ftsize-dollor {
+    font-size: calc(20px + (40 - 20)*((100vw - 320px)/(2000 - 320)));
+    font-family: 'GothamGreek', sans-serif;
+    font-weight: 800;
+}
+
+.ftsize-below-txt {
+    font-size: 18px;
+    margin: 3px 0 0;
+}
+.ftsize-below-txt-commn{
+    font-size: 18px !important;
+}
+
+.ftsize-dollor-height {
+    line-height: 0.8;
+    margin: 0px;
+}
+
+.ftsize-heading {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Blen-ranked-card-flx-12month:hover,
+.Blen-ranked-card-flx-1month:hover,
+.Blen-ranked-card-flx-3month:hover,
+.Blen-ranked-card-flx-unlimited:hover {
+    background-color: #334ac0;
+}
+
+.Blen-ranked-card-flx-free-trial-btn a:hover {
+    background-color: #334ac0;
+    ;
+    font-weight: 800;
+    color: #fff;
+}
+
+.Blen-ranked-card-flx-free-trial-txt {
+    color: #fff;
+    font-size: 20px;
+}
+.Blen-ranked-card-flx-1month-amuont-bill{
+    font-size: 18px !important;
+}

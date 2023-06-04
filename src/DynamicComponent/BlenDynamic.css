@@ -1,0 +1,325 @@
+.dynamic-card {
+    background-color: #586ee0;
+    padding: 106px 0px;
+}
+
+.dynamic-card-text-exam {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.dynamic-card-text-IBDP {
+    color: #fff;
+    float: left;
+    font-size: calc(45px + (90 - 45)*((100vw - 320px)/(2000 - 320)));
+    font-weight: 700;
+    margin: 0 0 35px;
+    text-align: center;
+    width: 100%;
+}
+
+.dynamic-card-text-Teaching {
+    color: #fff;
+    float: left;
+    margin: 0 0 35px;
+    text-align: center;
+    width: 100%;
+    font-size: calc(20px + (24 - 20)*((100vw - 320px)/(2000 - 320)));
+    font-weight: 400;
+}
+
+.dynamic-card-text-btn-a {
+    background-color: #fff;
+    color: #334ac0;
+    text-decoration: none;
+    justify-content: center;
+    outline: none !important;
+    padding: 15px calc(40px + (60 - 40)*((100vw - 320px)/(2000 - 320)));
+    text-align: center;
+    text-shadow: none;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    align-items: center;
+    background-image: none !important;
+    border: none;
+    border-radius: 5px;
+    font-family: 'GothamGreek', sans-serif;
+    margin: 20px 0px;
+}
+
+.planet-image-video {
+    width: 100%;
+    height: 20%;
+}
+
+.planetImage {
+    text-align: center;
+    position: relative;
+    margin: 100px 0px;
+}
+
+/* .planetImage img {
+    width: 80%;
+} */
+
+.dynamic-card-img {
+    padding: 60px;
+}
+
+.dynamic-card-center-text {
+    position: absolute;
+    left: 45%;
+    font-size: 71px;
+    font-weight: 800;
+    bottom: 40%;
+}
+
+.planet-Short-img1 {
+    position: absolute;
+    top: 0%;
+
+}
+
+.planet-Short-img2 {
+    position: absolute;
+    top: 50%;
+
+}
+
+.planet-Short-img3 {
+    position: absolute;
+    top: 79%;
+    right: 14%;
+}
+
+.planet-Short-img4 {
+    position: absolute;
+    top: -15%;
+    right: 3%;
+}
+
+.planet-Short-img5 {
+    position: absolute;
+    right: 0%;
+    top: 50%;
+}
+
+.planet-Short-img6 {
+    position: absolute;
+    left: 17%;
+    top: 92%;
+}
+
+.planet-Short-img7 {
+    position: absolute;
+    left: 22%;
+    top: -111px;
+}
+
+.big-image {
+    position: relative;
+}
+
+.dynamic-card-Study-table-data {
+    display: flex;
+    justify-content: center;
+    margin: 0px 84px;
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 35px 65px;
+}
+
+.dynamic-card-Study-table-one-aa h3,
+.dynamic-card-Study-table-one-Physics h3,
+.dynamic-card-Study-table-two-ai h3,
+.dynamic-card-Study-table-two-business h3,
+.dynamic-card-Study-table-three-bio h3,
+.dynamic-card-Study-table-three-eco h3,
+.dynamic-card-Study-table-four-chemistry h3,
+.dynamic-card-Study-table-four-phy h3 {
+    margin-bottom: 0px;
+    font-size: 16px;
+    color: #ff0000ad;
+}
+
+.dynamic-card-Study-table-one-aa p,
+.dynamic-card-Study-table-one-Physics p,
+.dynamic-card-Study-table-two-ai p,
+.dynamic-card-Study-table-two-business p,
+.dynamic-card-Study-table-three-bio p,
+.dynamic-card-Study-table-three-eco p,
+.dynamic-card-Study-table-four-chemistry p,
+.dynamic-card-Study-table-four-phy p {
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.dynamic-card-Study-table-browse-text {
+    align-items: center;
+    background-color: #334ac0;
+    background-image: none !important;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 0 0 5px 0 #ccc;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    outline: none !important;
+    text-align: center;
+    text-shadow: none;
+    transition: all 0.3s ease 0s;
+    padding: 11px 61px;
+    float: none;
+}
+
+.dynamic-card-Study-table-browse {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    width: -webkit-fill-available;
+    margin-top: -20px;
+}
+
+.dynamic-card-Study-table-browse-text a {
+    color: black;
+    text-decoration: none;
+}
+
+.dynamic-card-Study-table-browse-text a:hover {
+    color: #334ac0;
+}
+
+.dynamic-card-Study-table-browse-text:hover {
+    background-color: #fff;
+}
+
+.dynamic-card-Study-table {
+    padding: 30px 0px 0px 0px;
+    position: relative;
+}
+
+.dynamic-card-Study-table-one,
+.dynamic-card-Study-table-two,
+.dynamic-card-Study-table-three {
+    margin-right: 45px;
+}
+
+.planet-Short-img1 img {
+    animation: mymove 4s infinite;
+    animation-direction:alternate-reverse;
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+        width: 350px;
+    }
+
+    to {
+        left: 50px;
+        width: 400px;
+    }
+}
+
+.planet-Short-img2 img {
+    animation: mymove2 3s infinite;
+    animation-direction:alternate-reverse;
+}
+
+@keyframes mymove2 {
+    from {
+        left: 0px;
+        width: 350px;
+    }
+
+    to {
+        left: 20px;
+        width: 400px;
+    }
+}
+
+.planet-Short-img3 img{
+    animation: mymove3 3s infinite;
+    animation-direction:alternate-reverse;
+}
+
+@keyframes mymove3 {
+    from {
+        right: 230px;
+        width: 350px;
+    }
+
+    to {
+        right: 300px;
+        width: 400px;
+    }
+}
+.planet-Short-img4 img{
+    animation: mymove4 3s infinite;
+    animation-direction:alternate-reverse;
+}
+
+@keyframes mymove4 {
+    from {
+        right: 40px;
+        width: 350px;
+    }
+
+    to {
+        right: 200px;
+        width: 400px;
+    }
+}
+.planet-Short-img5 img{
+    animation: mymove5 3s infinite;
+    animation-direction:alternate-reverse;
+}
+
+@keyframes mymove5 {
+    from {
+        right: 0px;
+        width: 350px;
+    }
+
+    to {
+        right: 60px;
+        width: 400px;
+    }
+}
+.planet-Short-img6 img {
+    animation: mymove6 3s infinite;
+    animation-direction:alternate-reverse;
+}
+
+@keyframes mymove6 {
+    from {
+        left: 280px;
+        width: 350px;
+    }
+
+    to {
+        left: 350px;
+        width: 400px;
+    }
+    
+}
+.planet-Short-img7 img{
+    animation: mymove7 3s infinite;
+    animation-direction:alternate-reverse;
+}
+
+@keyframes mymove7 {
+    from {
+        left: 300px;
+        width: 350px;
+    }
+
+    to {
+        left: 400px;
+        width: 400px;
+    }
+}
