@@ -17,7 +17,7 @@ function BlenCommunityComp(){
                         <div className="Blen-community-card-data">
                             <div className="Blen-community-card-data-flx">
                                 <div className="Blen-community-card-data-one">
-                                    <img className="img-icon-tutor" src={cardImage1} repeat-x></img>
+                                    <img className="img-icon-tutor MS-uiniversity-img" src={cardImage1} repeat-x></img>
                                 </div>
                             </div>
                         </div>
