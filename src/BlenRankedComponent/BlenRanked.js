@@ -1,10 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import smileImg from '../asset/icon.png'
 import './BlenRanked.css'
 
-class BlenRankedComp extends Component {
-
-    render() {
+function BlenRankedComp(){
         return (
             <div className='section-6'>
                 <div className='Blen-ranked'>
@@ -12,8 +10,8 @@ class BlenRankedComp extends Component {
                         <div className='Blen-ranked-card-flx'>
                             <div className='Blen-ranked-card-flx-free-trial'>
                                 <div className='Blen-ranked-card-flx-free-trial-heading'>
-                                    <h1>Ranked #1 MS Aligned Resource in 2022 <img src={smileImg}></img></h1>
-                                    <p className='Blen-ranked-card-flx-free-trial-txt'>Trusted by MS  Students, Teachers and Examiners globally</p>
+                                    <h1>Ranked #1 MindSetters Aligned Resource in 2022 <img src={smileImg}></img></h1>
+                                    <p className='Blen-ranked-card-flx-free-trial-txt'>Trusted by MindSetters  Students, Teachers and Examiners globally</p>
                                 </div>
                             </div>
                             <div className='subs-card-align'>
@@ -54,7 +52,5 @@ class BlenRankedComp extends Component {
             </div>
         )
     }
-
-}
 
 export default BlenRankedComp;

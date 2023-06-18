@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import './BlenDynamic.css'
 import centerDYlogo from '../asset/planet.png'
 import sideImage1 from '../asset/biology.png'
@@ -9,18 +9,16 @@ import sideImage5 from '../asset/physics.png'
 import sideImage6 from '../asset/psychology.png'
 import sideImage7 from '../asset/math.png'
 
-class BlenDynamicCard extends Component {
-
-    render() {
+function BlenDynamicCard(){
         return (
             <section className="section-2">
                 <div className="dynamic-card">
                     <div className="dynamic-card-text">
                         <div className="dynamic-card-text-exam">
                             <h2 className="dynamic-card-text-IBDP">Exactly What You Need!</h2>
-                            <h3 className="dynamic-card-text-Teaching">A Powerful Learning and Teaching Platform for MS</h3>
+                            <h3 className="dynamic-card-text-Teaching">A Powerful Learning and Teaching Platform for MindSetters</h3>
                             <div className="dynamic-card-text-btn">
-                                <a className="dynamic-card-text-btn-a" href="https://app.helloblen.com/register" target="_blank">Start your Free Trial today</a>
+                                <a className="dynamic-card-text-btn-a" href="#" target="_blank">Start your Free Trial today</a>
                             </div>
                         </div>
                     </div>
@@ -29,7 +27,7 @@ class BlenDynamicCard extends Component {
                             <div>
                                 <div className="planetImage">
                                     <img className="big-image" src={centerDYlogo} ></img>
-                                    <h1 className="dynamic-card-center-text">MS</h1>
+                                    <h1 className="dynamic-card-center-text">MindSetters</h1>
                                     <div className="planet-Short-img1">
                                         <img src={sideImage1}></img>
                                     </div>
@@ -61,7 +59,7 @@ class BlenDynamicCard extends Component {
                     <div className="dynamic-card-Study-table">
                         <div className="dynamic-card-Study-table-browse">
                           <div className="dynamic-card-Study-table-browse-text">
-                            <a className="generalButton" href="https://app.helloblen.com/register">Browse Subjects</a>
+                            <a className="generalButton" href="#">Browse Subjects</a>
                           </div>
                         </div>
                         <div className="dynamic-card-Study-table-data">
@@ -111,6 +109,5 @@ class BlenDynamicCard extends Component {
             </section >
         )
     }
-}
 
 export default BlenDynamicCard;

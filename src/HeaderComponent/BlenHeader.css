@@ -17,12 +17,12 @@
     justify-content: center;
 }
 .header-login-right{
-    justify-content: right;
-    width: 30%;
+    justify-content: left;
+    width: 7%;
     align-items: center;
 }
 .header-blen-left{
-    width: 30%;
+    width: 57%;
     align-items: center;
     display: flex;
 }
@@ -67,4 +67,20 @@
     text-underline-position: under;
     text-decoration: underline !important;
     text-decoration-color: #d6d6d7;
+}
+.header-login-right select{
+    width: 20px;
+    background-color: #586ee0;
+    color: white;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.header-login-right select option{
+    background-color: white;
+    color: #586ee0;
+    height: 500px;
+    font-weight: 700;
+    width: 100px;
+    padding: 5px 10px;
 }

@@ -1,26 +1,18 @@
-import React, { Component } from "react";
+import React from "react";
 import './Articles.css'
 import cardImage1 from '../asset/books.png'
 import cardImage2 from '../asset/assigments.png'
 import cardImage3 from '../asset/questions.png'
 
-class BlenArticlesComp extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            cardOne: ""
-        }
-    }
-
-    render() {
+function BlenArticlesComp(){
         return (
             <div className="section-4">
                 <div className="Blen-articles">
                     <div className="Blen-articles-card">
                         <div className="Blen-articles-card-text">
                             <div>
-                                <h1 className="Blen-articles-card-text-heading-one">MORE ABOUT MS</h1>
-                                <div className="Blen-articles-card-text-heading">MS  curriculum is all about instilling the impactful knowledge in your generation that would make you better learners and better people.<br/>
+                                <h1 className="Blen-articles-card-text-heading-one">MORE ABOUT MindSetters</h1>
+                                <div className="Blen-articles-card-text-heading">MindSetters  curriculum is all about instilling the impactful knowledge in your generation that would make you better learners and better people.<br/>
                                     Here is how we ensure to embed the real-life skills you need to grow and create a better world.</div>
                             </div>
                         </div>
@@ -42,13 +34,12 @@ class BlenArticlesComp extends Component {
                             </div>
                         </div>
                         <div className="Blen-articles-card-btn">
-                            <a href="https://app.helloblen.com/register">Read more</a>
+                            <a href="#">Read more</a>
                         </div>
                     </div>
                 </div>
             </div>
         )
     }
-}
 
 export default BlenArticlesComp;

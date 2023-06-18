@@ -1,24 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 import './BlenCommunity.css'
-import cardImage1 from '../asset/blen_community.png'
+import cardImage1 from '../asset/Student-image.jpg'
 import heartImage from '../asset/heart.png'
 
-class BlenCommunityComp extends Component {
-    constructor(props){
-        super(props)
-        this.state = {
-            cardOne : ""
-        }
-    }
-
-    render() {
+function BlenCommunityComp(){
         return (
             <div className="section-7">
                 <div className="Blen-community">
                     <div className="Blen-community-card">
                         <div className="Blen-community-card-text">
                             <div>
-                                <h1 className="Blen-community-card-text-heading-one">Why MS Community love MS <img src={heartImage}></img></h1>
+                                <h1 className="Blen-community-card-text-heading-one">Why MindSetters Community love Teaching <img src={heartImage}></img></h1>
                                 <h2 className="Blen-community-card-text-heading">Here’s what they have to say...</h2>
                             </div>
                         </div>
@@ -30,13 +22,12 @@ class BlenCommunityComp extends Component {
                             </div>
                         </div>
                         <div className="Blen-community-card-btn">
-                            <a href="https://app.helloblen.com/register">Join now</a>
+                            <a href="#">Join now</a>
                         </div>
                     </div>
                 </div>
             </div>
         )
     }
-}
 
 export default BlenCommunityComp;

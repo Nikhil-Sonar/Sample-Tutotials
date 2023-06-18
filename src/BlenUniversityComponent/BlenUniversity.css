@@ -32,9 +32,10 @@
 }
 .Blen-university-card-data-flx{
     display: flex;
+    justify-content: center;
 }
 .Blen-university-card-data{
-    margin-top: 30px;
+    margin: 30px 0px 40px 0px;
 }
 .Blen-university-card-data-one,.Blen-university-card-data-two,.Blen-university-card-data-three,.Blen-university-card-data-four,.Blen-university-card-data-five{
     text-align: center;

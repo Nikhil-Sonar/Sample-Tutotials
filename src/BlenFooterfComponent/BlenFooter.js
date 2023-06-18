@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './BlenFooter.css'
 import blenLogo from '../asset/blen_logo.png'
 import logo1 from '../asset/instagram.png'
@@ -7,9 +7,8 @@ import logo3 from '../asset/twitter.png'
 import logo4 from '../asset/linkedin.png'
 import logo5 from '../asset/medium.png'
 
-class BlenFooterComp extends Component {
+function BlenFooterComp(){
 
-    render() {
         return (
             <React.Fragment>
             <div className='section-12'>
@@ -19,10 +18,10 @@ class BlenFooterComp extends Component {
                             <div className='subs-card-align'>
                                 <div className='Blen-footer-card-flx-1month'>
                                     <div className='Blen-footer-card-flx-1month-heading blen-mr-btm'>
-                                        <p className='Blen-footer-card-flx-1month-heading-txt ftsize-dollor-height ftsize-heading ms-size-txt'>MS</p>
+                                        <p className='Blen-footer-card-flx-1month-heading-txt ftsize-dollor-height ftsize-heading ms-size-txt'>MindSetters</p>
                                     </div>
                                     <div className='Blen-footer-card-flx-1month-discription'>
-                                        <p className='Blen-footer-card-flx-1month-discription-txt ftsize-dis'>MS is a powerful learning and teaching platform, thoughtfully designed for the MS community. With 100% MS Curriculum aligned resources such as interactive questions, key concepts, adaptive mock tests, assignments and detailed reports, unlock your true MS potential.</p>
+                                        <p className='Blen-footer-card-flx-1month-discription-txt ftsize-dis'>MindSetters is a powerful learning and teaching platform, thoughtfully designed for the MindSetters community. With 100% MindSetters Curriculum aligned resources such as interactive questions, key concepts, adaptive mock tests, assignments and detailed reports, unlock your true MindSetters potential.</p>
                                     </div>
                                 </div>
                                 <div className='Blen-footer-card-flx-3month'>
@@ -70,7 +69,7 @@ class BlenFooterComp extends Component {
                                 </div>
                                 <div className='Blen-footer-card-flx-1month'>
                                     <div className='Blen-footer-card-flx-1month-heading blen-mr-btm'>
-                                        <p className='Blen-footer-card-flx-1month-heading-txt ftsize-dollor-height ftsize-heading'>GET IN TOUCH WITH MS</p>
+                                        <p className='Blen-footer-card-flx-1month-heading-txt ftsize-dollor-height ftsize-heading ms-height'>GET IN TOUCH WITH MindSetters</p>
                                     </div>
                                     <div className='Blen-footer-card-flx-1month-discription'>
                                         <div className='Blen-footer-card-flx-1month-discription-input-parent'>
@@ -95,20 +94,18 @@ class BlenFooterComp extends Component {
                     </div>
                     <div className='Blen-footer-card-text'>
                         <p>
-                        DISCLAIMER: MS is an independent platform and is neither related nor associated to International Baccalaureate. Kindly refer to our Terms of Use and Privacy Statement for further information.
+                        DISCLAIMER: MindSetters is an independent platform and is neither related nor associated to International. Kindly refer to our Terms of Use and Privacy Statement for further information.
                         </p>
                     </div>
                 </div>
             </div>
             <div className='section-13'>
                 <div className='blen-sticy-card'>
-                    <p>This site was designed with the <span className='ms-com-link'> <a href='#'> MS.com </a> </span> website builder. Create your website today.  <button>Start Now</button></p>
+                    <p>This site was designed with the <span className='ms-com-link'> <a href='#'> MindSetters.com </a> </span> website builder. Create your website today.  <button>Start Now</button></p>
                 </div>
             </div>
             </React.Fragment>
         )
     }
-
-}
 
 export default BlenFooterComp;

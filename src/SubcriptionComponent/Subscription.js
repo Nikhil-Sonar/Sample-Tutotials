@@ -1,9 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Subscription.css'
 
-class SubscriptionComp extends Component {
-
-    render() {
+function SubscriptionComp() {
         return (
             <div className='section-6'>
                 <div className='subscription'>
@@ -16,7 +14,7 @@ class SubscriptionComp extends Component {
                                     </h1>
                                 </div>
                                 <div className='subscription-card-flx-free-trial-btn'>
-                                    <a href="/pricing">Join now</a>
+                                    <a href="#">Join now</a>
                                 </div>
                             </div>
                             <div className='subs-card-align'>
@@ -26,7 +24,7 @@ class SubscriptionComp extends Component {
                                         <span className='subscription-card-flx-1month-heading-sm-txt ftsize-dis card-Small-Text'>(for students)</span></p>
                                 </div>
                                 <div className='subscription-card-flx-1month-discription'>
-                                    <p className='subscription-card-flx-1month-discription-txt ftsize-dis'>Unrestricted access to MS questions, key concepts, solutions, performance reports and much more…</p>
+                                    <p className='subscription-card-flx-1month-discription-txt ftsize-dis'>Unrestricted access to MindSetters questions, key concepts, solutions, performance reports and much more…</p>
                                 </div>
                                 <div className='subscription-card-flx-1month-amuont'>
                                     <p className='subscription-card-flx-1month-amuont-prnt ftsize-dollor-height'><span className='subscription-card-flx-1month-amuont-icon'>$</span><span className='ftsize-dollor'>49</span><br /><span className='subscription-card-flx-1month-amuont-bill ftsize-below-txt'>Billed Monthly</span></p>
@@ -38,7 +36,7 @@ class SubscriptionComp extends Component {
                                         <span className='subscription-card-flx-3month-heading-sm-txt ftsize-dis card-Small-Text'>(for students)</span></p>
                                 </div>
                                 <div className='subscription-card-flx-3month-discription'>
-                                    <p className='subscription-card-flx-3month-discription-txt ftsize-dis'>Unrestricted access to MS questions, key concepts, solutions, performance reports and much more…</p>
+                                    <p className='subscription-card-flx-3month-discription-txt ftsize-dis'>Unrestricted access to MindSetters questions, key concepts, solutions, performance reports and much more…</p>
                                 </div>
                                 <div className='subscription-card-flx-3month-amuont'>
                                     <p className='subscription-card-flx-3month-amuont-prnt ftsize-dollor-height'><span className='subscription-card-flx-3month-amuont-icon'>$</span> <span className='ftsize-dollor'>99</span><br /><span className='subscription-card-flx-3month-amuont-bill ftsize-below-txt'>Billed Quarterly</span></p>
@@ -50,7 +48,7 @@ class SubscriptionComp extends Component {
                                         <span className='subscription-card-flx-unlimited-heading-sm-txt ftsize-dis card-Small-Text'>(for students)</span></p>
                                 </div>
                                 <div className='subscription-card-flx-unlimited-discription'>
-                                    <p className='subscription-card-flx-unlimited-discription-txt ftsize-dis'>Unrestricted access to MS questions, key concepts, solutions, performance reports and much more…</p>
+                                    <p className='subscription-card-flx-unlimited-discription-txt ftsize-dis'>Unrestricted access to MindSetters questions, key concepts, solutions, performance reports and much more…</p>
                                 </div>
                                 <div className='subscription-card-flx-unlimited-amuont'>
                                     <p className='subscription-card-flx-unlimited-amuont-prnt ftsize-dollor-height'><span className='subscription-card-flx-unlimited-amuont-icon'>$</span> <span className='ftsize-dollor'>149</span><br /><span className='subscription-card-flx-unlimited-amuont-bill ftsize-below-txt'>One-Time Payment</span></p>
@@ -62,7 +60,7 @@ class SubscriptionComp extends Component {
                                         <span className='subscription-card-flx-12month-heading-sm-txt ftsize-dis card-Small-Text'>(for students)</span></p>
                                 </div>
                                 <div className='subscription-card-flx-12month-discription'>
-                                    <p className='subscription-card-flx-12month-discription-txt ftsize-dis'>Unrestricted access to MS questions, key concepts, solutions, performance reports and much more…</p>
+                                    <p className='subscription-card-flx-12month-discription-txt ftsize-dis'>Unrestricted access to MindSetters questions, key concepts, solutions, performance reports and much more…</p>
                                 </div>
                                 <div className='subscription-card-flx-12month-amuont'>
                                     <h1 className='subscription-card-flx-12month-amuont-prnt ftsize-dollor'>FREE</h1>
@@ -75,7 +73,5 @@ class SubscriptionComp extends Component {
             </div>
         )
     }
-
-}
 
 export default SubscriptionComp;
