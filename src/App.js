@@ -6,7 +6,7 @@ import BlenTutorComp from './BlenTutorComponent/BlenTutor'
 import MembersComp from './MembersComponent/Members'
 import StudentTutorComp from './StudentComponent/StudentTutor'
 import BlenCommunityComp from './BlenCommunityComponent/BlenCommunity'
-import SubscriptionComp from './SubcriptionComponent/Subscription'
+// import SubscriptionComp from './SubcriptionComponent/Subscription'
 import BlenArticlesComp from './BlenArticlesComponent/Articles'
 import BlenRankedComp from './BlenRankedComponent/BlenRanked'
 import BlenUniversityComp from './BlenUniversityComponent/BlenUniversity'
@@ -23,7 +23,7 @@ function App() {
        <MembersComp/>
        <StudentTutorComp/>
        <BlenCommunityComp/>
-       <SubscriptionComp/>
+       {/* <SubscriptionComp/> */}
        <BlenArticlesComp/>
        <BlenRankedComp/>
        <BlenUniversityComp/>

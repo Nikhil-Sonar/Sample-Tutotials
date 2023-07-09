@@ -1,6 +1,9 @@
 .dynamic-card {
-    background-color: #586ee0;
-    padding: 106px 0px;
+    /* background-color: #03dc97; */
+    background: linear-gradient(90deg, rgb(63 233 179) 0%, rgba(88, 110, 224, 1) 100%);
+    box-shadow: inset 0px 0px 49px 7px;
+    border: 1px solid black;
+    padding: 90px 0px;
 }
 
 .dynamic-card-text-exam {
@@ -73,49 +76,49 @@
     left: 41%;
     font-size: 40px;
     font-weight: 800;
-    bottom: 48%;
+    bottom: 54%;
 }
 
 .planet-Short-img1 {
     position: absolute;
-    top: 0%;
-
+    left: 183px;
+    top: 100px;
 }
 
 .planet-Short-img2 {
     position: absolute;
-    top: 50%;
-
+    top: 57%;
+    left: 80px;
 }
 
 .planet-Short-img3 {
     position: absolute;
-    top: 79%;
-    right: 14%;
+    top: 68%;
+    right: 20%;
 }
 
 .planet-Short-img4 {
     position: absolute;
-    top: -15%;
-    right: 3%;
+    top: -18%;
+    right: 22%;
 }
 
 .planet-Short-img5 {
     position: absolute;
-    right: 0%;
-    top: 50%;
+    right: 13%;
+    top: 30%;
 }
 
 .planet-Short-img6 {
     position: absolute;
-    left: 17%;
-    top: 92%;
+    left: 42%;
+    top: 84%;
 }
 
 .planet-Short-img7 {
     position: absolute;
-    left: 22%;
-    top: -111px;
+    left: 28%;
+    top: -96px;
 }
 
 .big-image {
@@ -210,116 +213,184 @@
 
 .planet-Short-img1 img {
     animation: mymove 4s infinite;
-    animation-direction:alternate-reverse;
+    animation-direction: alternate-reverse;
 }
+
+/* 
+.planet-Short-img1 img{
+    height: 220px;
+} */
 
 @keyframes mymove {
     from {
         left: 0px;
-        width: 350px;
+        width: 150px;
     }
 
     to {
         left: 50px;
-        width: 400px;
+        width: 200px;
     }
 }
 
 .planet-Short-img2 img {
     animation: mymove2 3s infinite;
-    animation-direction:alternate-reverse;
+    animation-direction: alternate-reverse;
 }
 
 @keyframes mymove2 {
     from {
         left: 0px;
-        width: 350px;
+        width: 150px;
     }
 
     to {
         left: 20px;
-        width: 400px;
+        width: 200px;
     }
 }
 
-.planet-Short-img3 img{
+.planet-Short-img3 img {
     animation: mymove3 3s infinite;
-    animation-direction:alternate-reverse;
+    animation-direction: alternate-reverse;
 }
 
 @keyframes mymove3 {
     from {
         right: 230px;
-        width: 350px;
+        width: 150px;
     }
 
     to {
         right: 300px;
-        width: 400px;
+        width: 200px;
     }
 }
-.planet-Short-img4 img{
+
+.planet-Short-img4 img {
     animation: mymove4 3s infinite;
-    animation-direction:alternate-reverse;
+    animation-direction: alternate-reverse;
 }
 
 @keyframes mymove4 {
     from {
         right: 40px;
-        width: 350px;
+        width: 180px;
     }
 
     to {
         right: 200px;
-        width: 400px;
+        width: 220px;
     }
 }
-.planet-Short-img5 img{
+
+.planet-Short-img5 img {
     animation: mymove5 3s infinite;
-    animation-direction:alternate-reverse;
+    animation-direction: alternate-reverse;
 }
 
 @keyframes mymove5 {
     from {
         right: 0px;
-        width: 350px;
+        width: 150px;
     }
 
     to {
         right: 60px;
-        width: 400px;
+        width: 200px;
     }
 }
+
 .planet-Short-img6 img {
     animation: mymove6 3s infinite;
-    animation-direction:alternate-reverse;
+    animation-direction: alternate-reverse;
 }
 
 @keyframes mymove6 {
     from {
         left: 280px;
-        width: 350px;
+        width: 150px;
     }
 
     to {
         left: 350px;
-        width: 400px;
+        width: 200px;
     }
-    
+
 }
-.planet-Short-img7 img{
+
+.planet-Short-img7 img {
     animation: mymove7 3s infinite;
-    animation-direction:alternate-reverse;
+    animation-direction: alternate-reverse;
 }
 
 @keyframes mymove7 {
     from {
         left: 300px;
-        width: 350px;
+        width: 150px;
     }
 
     to {
         left: 400px;
-        width: 400px;
+        width: 200px;
     }
+}
+
+.accordian-parrent{
+   display: flex;
+   justify-content: space-between;
+}
+.accordian-p1, .accordian-p2, .accordian-p3, .accordian-p4{
+   width: 100%;
+}
+.accordion-item{
+    background: none !important;
+    box-shadow: 0px 0px 7px 1px;
+    border: 0px solid black;
+}
+.accordion-button{
+    background: linear-gradient(90deg, #0d6efd, rgb(253 109 13) 150%);
+    border-radius: 10px;
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+}
+.accordion-item:first-of-type .accordion-button, .accordion-item:last-of-type{
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+}
+.accordion-item:first-of-type, .accordion-item:last-of-type{
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+}
+.accordion-body{
+    background-color: #fff;
+    border-radius: 10px;
+    font-weight: 400 !important;
+}
+.accordion-button:focus{
+    font-weight: 700;
+    color: #000;
+}
+.distance-card{
+    margin-bottom: 15px;
+}
+
+.accordion {
+    margin-right: 10px;
 }

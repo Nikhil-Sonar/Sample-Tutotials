@@ -1,5 +1,6 @@
 import React from "react";
 import './BlenHeader.css'
+import MindSetterLogo from '../asset/MindSetterLogo.jpg'
 
 function BlenHeaderRender() {
     return (
@@ -7,7 +8,7 @@ function BlenHeaderRender() {
             <div className="section-1-Card">
                 <div className="header">
                     <div className="header-blen-left">
-                        <div className="blen-text">MindSetters</div>
+                        <div className="blen-text"><img src={MindSetterLogo}></img></div>
                     </div>
                     <div className="header-subject-center">
                         <div className="subject-text common-hover">

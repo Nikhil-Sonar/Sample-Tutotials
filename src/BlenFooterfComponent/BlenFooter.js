@@ -30,11 +30,6 @@ function BlenFooterComp(){
                                     </div>
                                     <div className='Blen-footer-card-flx-3month-discription'>
                                         <p className='Blen-footer-card-flx-3month-discription-txt ftsize-dis'>About us</p>
-                                        <p className='Blen-footer-card-flx-3month-discription-txt ftsize-dis'>Blog</p>
-                                        <p className='Blen-footer-card-flx-3month-discription-txt ftsize-dis'>Announcements</p>
-                                        <p className='Blen-footer-card-flx-3month-discription-txt ftsize-dis'>Terms of use</p>
-                                        <p className='Blen-footer-card-flx-3month-discription-txt ftsize-dis'>Privacy statement</p>
-                                        <p className='Blen-footer-card-flx-3month-discription-txt ftsize-dis'>Refer and Earn</p>
                                     </div>
                                 </div>
                                 <div className='Blen-footer-card-flx-unlimited'>
@@ -69,16 +64,16 @@ function BlenFooterComp(){
                                 </div>
                                 <div className='Blen-footer-card-flx-1month'>
                                     <div className='Blen-footer-card-flx-1month-heading blen-mr-btm'>
-                                        <p className='Blen-footer-card-flx-1month-heading-txt ftsize-dollor-height ftsize-heading ms-height'>GET IN TOUCH WITH MindSetters</p>
+                                        <p className='Blen-footer-card-flx-1month-heading-txt ftsize-dollor-height ftsize-heading ms-height'>GET IN TOUCH</p>
                                     </div>
                                     <div className='Blen-footer-card-flx-1month-discription'>
                                         <div className='Blen-footer-card-flx-1month-discription-input-parent'>
-                                        <p className='Blen-footer-card-flx-1month-discription-txt ftsize-dis'>Be the first to know about our news and special offers direct to your inbox.</p><br/>
-                                        <input placeholder='Your email' className='blen-input-type' type='text'></input><button class="subbutton" onclick="ccMoosendSubscribe(194)">{">"}</button>
+                                        <p className='Blen-footer-card-flx-1month-discription-txt ftsize-dis'>MINDSETTERS ACADEMY, 1NORTH BRIDGE ROAD, HIGH STREET CENTER, 14-04, SINGAPORE-179094 <a href='https://www.google.com/maps/place/Mind+Setters+Academy,+Singapore/@1.2900089,103.8468583,17z/data=!3m2!4b1!5s0x31da199b63518251:0xef3f6e0148acc983!4m6!3m5!1s0x31da190c65001d87:0xd99e931ebca81686!8m2!3d1.2900089!4d103.8494332!16s%2Fg%2F11gxw071tv?entry=ttu' className='address-link'>Click here</a></p><br/>
+                                        <input placeholder='Your email' className='blen-input-type' type='text'></input><button className="subbutton" onclick="ccMoosendSubscribe(194)">{">"}</button>
                                         </div>
                                         <div className='Blen-footer-card-flx-1month-discription-search'>
                                             <input type='checkbox'></input>
-                                            <p>I consent to the processing of my personal data, in order to receive news and updates of Blen, according to the "Privacy Statement"</p>
+                                            <p>I consent to the processing of my personal data, in order to receive news and updates of MindSetters, according to the "Privacy Statement"</p>
                                         </div>
                                         <div className='Blen-footer-card-flx-1month-discription-social-m'>
                                             <img src={logo1}></img>

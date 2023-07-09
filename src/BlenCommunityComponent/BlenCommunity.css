@@ -30,7 +30,7 @@
     padding: 30px 0;
     top: 50%;
     width: 100%;
-    background: linear-gradient(90deg, rgba(139,81,237,1) 0%, rgba(88,110,224,1) 100%);
+    background: linear-gradient(90deg, rgb(63 233 179) 0%, rgba(88,110,224,1) 100%);;
 }
 .Blen-community-card-data-one h2, .Blen-community-card-data-two h2, .Blen-community-card-data-three h2, .Blen-community-card-data-four h2, .Blen-community-card-data-five h2{
     font-size: 18px;
@@ -86,8 +86,12 @@
 .active{
     width: 50%;
 }
-.img-icon-tutor{
-    width: 100%;
+.MS-uiniversity-img{
+    box-shadow: 0px 0px 34px -1px;
+    border: 0px solid #00e5c2;
+    width: 74%;
+    height: 487px;
+    border-radius: 92px;
 }
 .MS-uiniversity-img:hover {
     width: 770px;

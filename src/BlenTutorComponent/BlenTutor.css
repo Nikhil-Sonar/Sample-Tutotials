@@ -17,7 +17,7 @@
     justify-content: center;
 }
 .IBDP-text{
-    background: linear-gradient(90deg, rgba(139,81,237,1) 0%, rgba(88,110,224,1) 100%);
+    background: linear-gradient(90deg, rgb(63 233 179) 0%, rgba(88,110,224,1) 100%);
     color: #fff;
     padding: 2px 7px 2px 6px;
     border-radius: 5px;

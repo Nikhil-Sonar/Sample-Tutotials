@@ -1,6 +1,6 @@
 import React from "react";
 import './Members.css'
-import membersImg from'../asset/members.png'
+import membersImg from'../asset/home_page_4x.webp'
 
 function MembersComp(){
         return (
