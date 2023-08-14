@@ -1,34 +1,34 @@
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import BlenHeaderRender from './HeaderComponent/BlenHeader';
 import BlenDynamicCard from './DynamicComponent/BlenDynamic';
 import IDBPComp from './IDBPComponent/IDBP';
-import BlenTutorComp from './BlenTutorComponent/BlenTutor'
-import MembersComp from './MembersComponent/Members'
-import StudentTutorComp from './StudentComponent/StudentTutor'
-import BlenCommunityComp from './BlenCommunityComponent/BlenCommunity'
-// import SubscriptionComp from './SubcriptionComponent/Subscription'
-import BlenArticlesComp from './BlenArticlesComponent/Articles'
-import BlenRankedComp from './BlenRankedComponent/BlenRanked'
-import BlenUniversityComp from './BlenUniversityComponent/BlenUniversity'
-import BlenFooterComp from './BlenFooterfComponent/BlenFooter'
+import BlenCommunityComp from './BlenCommunityComponent/BlenCommunity';
+import BlenChildCommunityComp from './BlenCommunityChildComponent/BlenChildCommunity';
+import BlenArticlesComp from './BlenArticlesComponent/Articles';
+import BlenRankedComp from './BlenRankedComponent/BlenRanked';
+import FormdataRender from './MindsetterFormComp/MindsetterForm';
+import IbcscComp from './IbcscComponent/IbcscComp';
+import IbdpComp from './IbdpComponent/IbdpComp';
+import BlenFooterComp from './BlenFooterfComponent/BlenFooter';
+
 
 function App() {
   return (
     <div className="App">
-     <section class="Common-section">
-       <BlenHeaderRender/>
-       <BlenDynamicCard/>
-       <IDBPComp/>
-       <BlenTutorComp/>
-       <MembersComp/>
-       <StudentTutorComp/>
-       <BlenCommunityComp/>
-       {/* <SubscriptionComp/> */}
-       <BlenArticlesComp/>
-       <BlenRankedComp/>
-       <BlenUniversityComp/>
-       <BlenFooterComp/>
-     </section>
+      <section class="Common-section">
+        <BrowserRouter>
+          <BlenHeaderRender />
+          <Routes>
+            <Route exact path='/' element={[ <BlenDynamicCard />, <IDBPComp />,  <BlenCommunityComp />, <BlenChildCommunityComp />, <BlenArticlesComp />, <BlenRankedComp />, <FormdataRender />]}></Route>
+            <Route exact path='/igcse' element={<IbcscComp/>}></Route>
+            <Route exact path='/ibdp' element={<IbdpComp/>}></Route>
+            <Route exact path='/testimonial' element={[<BlenCommunityComp />, <BlenChildCommunityComp />]}></Route>
+            <Route exact path='/contactform' element={<FormdataRender />}></Route>
+          </Routes>
+          <BlenFooterComp />
+        </BrowserRouter>
+      </section>
     </div>
   );
 }

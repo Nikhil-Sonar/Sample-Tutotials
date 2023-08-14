@@ -39,9 +39,6 @@ function IDBPComp() {
 
                      </div>
                    </div>
-                   <div className="IDBP-reresource-card-btn">
-                        <a href="#">Explore Now</a>
-                   </div>
                 </div>
               </div>
             </section>

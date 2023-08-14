@@ -1,5 +1,9 @@
+.section-4{
+    background-color: #ccc;
+    width: 100%;
+}
 .Blen-articles{
-    padding: 106px 0px;
+    padding: 60px 0px;
 }
 .Blen-articles-card{
    padding: 0px 50px;
@@ -22,8 +26,7 @@
 .Blen-articles-card-data{
     margin-top: 30px;
 }
-.Blen-articles-card-data-one,.Blen-articles-card-data-two,.Blen-articles-card-data-three,.Blen-articles-card-data-four,.Blen-articles-card-data-five{
-    text-align: center;
+.Blen-articles-card-data-one,.Blen-articles-card-data-two,.Blen-articles-card-data-three,.Blen-articles-card-data-four{
     font-family: 'GothamGreek', sans-serif;
     font-size: 15px;
     border-radius: 20px;
@@ -31,19 +34,31 @@
     height: 100%;
     left: 50%;
     overflow: hidden;
-    padding: 20px 0 0 0;
+    padding: 20px 25px;
     top: 50%;
     width: 100%;
     color: #2b2a34;
 }
+.Summary-Pointer{
+    font-size: 15px !important;
+    font-weight: 100 !important;
+    color: #fff !important;
+}
 .Blen-articles-card-data-one p, .Blen-articles-card-data-two p, .Blen-articles-card-data-three p, .Blen-articles-card-data-four p, .Blen-articles-card-data-five p{
     font-size: 18px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 14px;
     color: #000000;
     font-size: calc(18px + (24 - 18)*((100vw - 320px)/(2000 - 320)));
     font-weight: 700;
 }
+
+.Blen-articles-card-data-one h2, .Blen-articles-card-data-two h2, .Blen-articles-card-data-three h2, .Blen-articles-card-data-four h2{
+    font-size: 26px;
+    font-weight: 700;
+    color:#fff;
+}
+
 .Blen-articles-card-btn a{
     background-color: #334ac0;
     padding: 15px calc(40px + (60 - 40)*((100vw - 320px)/(2000 - 320)));
@@ -63,14 +78,6 @@
 .icon-clr{
     color: #781ce9;
 }
-.img-icon-tutor{
-    height: auto;
-    width: auto;
-}
-/* .Blen-articles-card-data-one:hover, .Blen-articles-card-data-two:hover, .Blen-articles-card-data-three:hover, .Blen-articles-card-data-four:hover{
-    width: 120%;
-    background-color: #6967e4; 
-} */
 .Blen-articles-card-btn a:hover{
     color: #334ac0;
     background-color: #fff;
@@ -93,4 +100,20 @@
   }
 .active{
     width: 50%;
+}
+
+.Blen-articles-card-data-two, .Blen-articles-card-data-four{
+    margin-top: 100px;
+    background-color: #334ac0;
+}
+.Blen-articles-card-data-one{
+    background-color: #edbb05;
+}
+
+.Blen-articles-card-data-three{
+    background-color: #00ad45;
+}
+
+.Blen-articles-card-data-four{
+    background-color: #ca0a54;
 }

@@ -1,6 +1,5 @@
-.Blen-ranked-card {
+.section-6 {
     padding: 25px 55px;
-    background: linear-gradient(90deg, rgb(63 233 179) 0%, rgba(88,110,224,1) 100%);
     border-radius: 5px;
 }
 
@@ -10,7 +9,7 @@
 .Blen-ranked-card-flx-unlimited {
     text-align: center;
     padding: 25px 10px;
-    color: #fff;
+    color: #000000;
     border-radius: 4px;
 }
 
@@ -21,13 +20,14 @@
 
 .Blen-ranked {
     padding: 0px 50px;
-    margin: 0px 20px 106px;
+    margin: 30px 20px 5px 20px;
 }
 
 .Blen-ranked-card-flx-free-trial-heading h1 {
-    color: #fff;
+    color: #000000;
     font-size: 40px;
     margin-bottom: 18px;
+    font-weight: 700;
 }
 
 .Blen-ranked-card-flx-free-trial-bold {
@@ -35,7 +35,7 @@
 }
 
 .Blen-ranked-card-flx-free-trial-btn a {
-    background-color: #fff;
+    background-color: #000000;
     color: #334ac0;
     padding: 15px calc(40px + (60 - 40)*((100vw - 320px)/(2000 - 320)));
     text-decoration: none;
@@ -61,12 +61,13 @@
 .ftsize-dollor {
     font-size: calc(20px + (40 - 20)*((100vw - 320px)/(2000 - 320)));
     font-family: 'GothamGreek', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .ftsize-below-txt {
     font-size: 18px;
     margin: 3px 0 0;
+    line-height: 3;
 }
 .ftsize-below-txt-commn{
     font-size: 18px !important;
@@ -82,22 +83,25 @@
     font-weight: 700;
 }
 
-.Blen-ranked-card-flx-12month:hover,
+/* .Blen-ranked-card-flx-12month:hover,
 .Blen-ranked-card-flx-1month:hover,
 .Blen-ranked-card-flx-3month:hover,
-.Blen-ranked-card-flx-unlimited:hover {
-    background-color: #334ac0;
-}
+.Blen-ranked-card-flx-unlimited:hover{
+    background-color: #FFBF00;
+} */
 
 .Blen-ranked-card-flx-free-trial-btn a:hover {
-    background-color: #334ac0;
-    ;
+    background-color: #FFBF00;
     font-weight: 800;
-    color: #fff;
+    color: #000000;
 }
 
+/* .Blen-ranked-card-flx-free-trial-btn:hover {
+    padding: 20px 18px 5px !important;
+}  */
+
 .Blen-ranked-card-flx-free-trial-txt {
-    color: #fff;
+    color: #000000;
     font-size: 20px;
 }
 .Blen-ranked-card-flx-1month-amuont-bill{

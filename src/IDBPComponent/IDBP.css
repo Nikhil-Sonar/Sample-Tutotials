@@ -1,6 +1,5 @@
 .IDBP-reresource{
-    padding: 106px 0px;
-    background-color: #f6f6f9;
+    padding: 70px 0px;
 }
 .IDBP-reresource-card{
    padding: 0px 50px;
@@ -18,7 +17,7 @@
     justify-content: center;
 }
 .IBDP-text{
-    background-color: #334ac0;
+    background-color: #FFBF00;
     color: #fff;
     padding: 2px 7px 2px 6px;
     border-radius: 10px;
@@ -39,7 +38,8 @@
     font-size: 18px;
     margin-bottom: 0px;
     margin-top: 20px;
-    color: #334ac0;;
+    color: #FFBF00;;
+    font-weight: 600;
 }
 .IDBP-reresource-card-btn a{
     background-color: #334ac0;
@@ -64,9 +64,9 @@
 .img-icon{
     height: 100px;
 }
-.IDBP-reresource-card-data:hover .img-icon {
+/* .IDBP-reresource-card-data:hover .img-icon {
     height: 110px;
-  }
+  } */
 .IDBP-reresource-card-btn a:hover{
     color: #334ac0;
     background-color: #fff;

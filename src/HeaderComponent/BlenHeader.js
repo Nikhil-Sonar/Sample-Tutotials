@@ -1,8 +1,16 @@
-import React from "react";
-import './BlenHeader.css'
-import MindSetterLogo from '../asset/MindSetterLogo.jpg'
+import React, { useState } from "react";
+import './BlenHeader.css';
+import { useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import MindSetterLogo from '../asset/MindSetterLogo.jpg';
+import ArrowUpLogo from '../asset/circle-arrow-up-solid.svg';
 
 function BlenHeaderRender() {
+// const navigate = useNavigate();
+const handleSelectChange = (event) => {
+    window.location.href = event.target.value;
+}
+
     return (
         <section className="section-1">
             <div className="section-1-Card">
@@ -13,24 +21,27 @@ function BlenHeaderRender() {
                     <div className="header-subject-center">
                         <div className="subject-text common-hover">
                             <a href="#" className="subject-text-Subjects common-hover">
-                                Home
+                               <NavLink className="home-text" to={"/"}>Home</NavLink> 
                             </a>
-                            <a href="#" className="subject-text-IBResources common-hover">
-                                Courses
+                            <select onChange={handleSelectChange} placeholder="Cources" className="subject-text-IBResources common-hover courses-text-parent">
+                                <option className="Option-courses">Courses</option>
+                                <option value={'/ibdp'} className="Option-courses">IBDP</option>
+                                <option value={'/igcse'} className="Option-courses">IBCSC</option>
+                            </select>
+                            <a className="subject-text-Tutors common-hover">
+                            <NavLink className="home-text" to={"testimonial"}>Testimonials</NavLink>
                             </a>
-                            <a href="#" className="subject-text-Tutors common-hover">
-                                Testimonials
+                            <a className="subject-text-Students common-hover">
+                            <NavLink className="home-text" to={"contactform"}>Contacts</NavLink>
                             </a>
-                            <a href="#" className="subject-text-Students common-hover">
-                                Contacts
-                            </a>
-                            <a href="#" className="subject-text-Pricing common-hover">
+                            <a className="subject-text-Pricing common-hover">
                                 About
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
+            <a href="#" className="scrool-top"><img src={ArrowUpLogo} /></a>
         </section>
     )
 }
