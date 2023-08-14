@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Sample-Tutotials/static/css/main.c84af49c.css",
+    "main.js": "/Sample-Tutotials/static/js/main.40af2d56.js",
+    "static/js/787.a9120f67.chunk.js": "/Sample-Tutotials/static/js/787.a9120f67.chunk.js",
+    "static/media/pexels-george-study-girl.jpg": "/Sample-Tutotials/static/media/pexels-george-study-girl.b7f1f002d053995ab7c6.jpg",
+    "static/media/Physical-img.jpg": "/Sample-Tutotials/static/media/Physical-img.336fb5818916c929e612.jpg",
+    "static/media/people-Group.jpg": "/Sample-Tutotials/static/media/people-Group.cfebde83828a33e19eec.jpg",
+    "static/media/laptop-girl.jpg": "/Sample-Tutotials/static/media/laptop-girl.cd0eae7f88558822b2cc.jpg",
+    "static/media/pexels-photo-classroom.webp": "/Sample-Tutotials/static/media/pexels-photo-classroom.f67df83db4eef9a4aa7b.webp",
+    "static/media/assigments.png": "/Sample-Tutotials/static/media/assigments.07dc68fb0ca3238bba03.png",
+    "static/media/questions.png": "/Sample-Tutotials/static/media/questions.28d12e66db2060be1c80.png",
+    "static/media/books.png": "/Sample-Tutotials/static/media/books.fa1554d4a08a97f4a71e.png",
+    "static/media/Student-image.jpg": "/Sample-Tutotials/static/media/Student-image.f6422b770ea1c6822b5a.jpg",
+    "static/media/pexels-book.webp": "/Sample-Tutotials/static/media/pexels-book.2ed572d49018a75953c7.webp",
+    "static/media/math-science-Img.avif": "/Sample-Tutotials/static/media/math-science-Img.81823079a0dd18bc7496.avif",
+    "static/media/MindSetterLogo.jpg": "/Sample-Tutotials/static/media/MindSetterLogo.1950bb297aafb2ed0674.jpg",
+    "static/media/icon.png": "/Sample-Tutotials/static/media/icon.3466aafd55212cc0e258.png",
+    "static/media/slick.svg": "/Sample-Tutotials/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Sample-Tutotials/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Sample-Tutotials/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Sample-Tutotials/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Sample-Tutotials/index.html",
+    "static/media/circle-arrow-up-solid.svg": "/Sample-Tutotials/static/media/circle-arrow-up-solid.ffcf49096125a90560ef1aba730f3a9d.svg",
+    "main.c84af49c.css.map": "/Sample-Tutotials/static/css/main.c84af49c.css.map",
+    "main.40af2d56.js.map": "/Sample-Tutotials/static/js/main.40af2d56.js.map",
+    "787.a9120f67.chunk.js.map": "/Sample-Tutotials/static/js/787.a9120f67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c84af49c.css",
+    "static/js/main.40af2d56.js"
+  ]
+}
