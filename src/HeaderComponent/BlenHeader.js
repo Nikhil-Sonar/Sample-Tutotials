@@ -18,12 +18,12 @@ function BlenHeaderRender() {
             <div className="section-1-Card">
                 <div className="header">
                     <div className="header-blen-left">
-                    <NavLink to={"/"}><div className="blen-text"><img src={MindSetterLogo}></img></div></NavLink>
+                    <NavLink to={"/Sample-Tutotials"}><div className="blen-text"><img src={MindSetterLogo}></img></div></NavLink>
                     </div>
                     <div className="header-subject-center">
                         <div className="subject-text common-hover">
                             <a href="#" className="subject-text-Subjects common-hover">
-                               <NavLink className="home-text" to={"/"}>Home</NavLink> 
+                               <NavLink className="home-text" to={"/Sample-Tutotials"}>Home</NavLink> 
                             </a>
                             <a href="#" className="subject-text-Subjects common-hover">
                                <NavLink className="home-text" to={'/ibdp'}>IBDP</NavLink> 
