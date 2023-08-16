@@ -1,3 +1,8 @@
+.IBDP-Comp-align{
+    background-color: rgba(28, 28, 28, 100%);
+    padding: 25px 55px 75px 55px;
+}
+
 .container-2 {
     display: flex;
     justify-content: center;

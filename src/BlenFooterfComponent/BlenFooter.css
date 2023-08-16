@@ -3,6 +3,10 @@
     justify-content: start;
 }
 
+.about-us-txt{
+    margin: 30px 0 0px 0px;
+}
+
 .Blen-footer-card {
     border-radius: 5px;
 }
@@ -18,7 +22,7 @@
 }
 
 .Blen-footer-card-flx-1month {
-    max-width: 279px;
+    max-width: 300px;
 }
 
 .get-in-touch-align {
@@ -212,5 +216,5 @@
 
 .Mindshetter-Community{
     font-weight: 600;
-    font-size: 14.7px;
+    font-size: 15.7px;
 }

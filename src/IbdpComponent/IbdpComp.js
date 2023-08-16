@@ -3,7 +3,7 @@ import './IbdpComp.css'
 
 function IbdpComp() {
     return (
-        <div className='section-6'>
+        <div className='section-6 IBDP-Comp-align'>
             <div className="container-2">
                 <div className="content-2">
                     <div className="subject-table">

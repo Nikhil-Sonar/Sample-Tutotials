@@ -3,8 +3,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import BlenHeaderRender from './HeaderComponent/BlenHeader';
 import BlenDynamicCard from './DynamicComponent/BlenDynamic';
 import IDBPComp from './IDBPComponent/IDBP';
-import BlenCommunityComp from './BlenCommunityComponent/BlenCommunity';
-import BlenChildCommunityComp from './BlenCommunityChildComponent/BlenChildCommunity';
+// import BlenCommunityComp from './BlenCommunityComponent/BlenCommunity';
+// import BlenChildCommunityComp from './BlenCommunityChildComponent/BlenChildCommunity';
 import BlenArticlesComp from './BlenArticlesComponent/Articles';
 import BlenRankedComp from './BlenRankedComponent/BlenRanked';
 import FormdataRender from './MindsetterFormComp/MindsetterForm';
@@ -20,10 +20,10 @@ function App() {
         <BrowserRouter>
           <BlenHeaderRender />
           <Routes>
-            <Route exact path='/' element={[ <BlenDynamicCard />, <IDBPComp />,  <BlenCommunityComp />, <BlenChildCommunityComp />, <BlenArticlesComp />, <BlenRankedComp />, <FormdataRender />]}></Route>
+            <Route exact path='/' element={[ <BlenDynamicCard />, <IDBPComp />, <BlenArticlesComp />, <BlenRankedComp />, <FormdataRender />]}></Route>
             <Route exact path='/igcse' element={<IbcscComp/>}></Route>
             <Route exact path='/ibdp' element={<IbdpComp/>}></Route>
-            <Route exact path='/testimonial' element={[<BlenCommunityComp />, <BlenChildCommunityComp />]}></Route>
+            {/* <Route exact path='/testimonial' element={[<BlenCommunityComp />, <BlenChildCommunityComp />]}></Route> */}
             <Route exact path='/contactform' element={<FormdataRender />}></Route>
           </Routes>
           <BlenFooterComp />
