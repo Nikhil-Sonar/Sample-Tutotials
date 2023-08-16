@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sample-Tutotials/static/css/main.121834ec.css",
-    "main.js": "/Sample-Tutotials/static/js/main.a5ded028.js",
+    "main.js": "/Sample-Tutotials/static/js/main.059e2c09.js",
     "static/js/787.a9120f67.chunk.js": "/Sample-Tutotials/static/js/787.a9120f67.chunk.js",
     "static/media/pexels-george-study-girl.jpg": "/Sample-Tutotials/static/media/pexels-george-study-girl.b7f1f002d053995ab7c6.jpg",
     "static/media/Physical-img.jpg": "/Sample-Tutotials/static/media/Physical-img.336fb5818916c929e612.jpg",
@@ -22,11 +22,11 @@
     "index.html": "/Sample-Tutotials/index.html",
     "static/media/circle-arrow-up-solid.svg": "/Sample-Tutotials/static/media/circle-arrow-up-solid.ffcf49096125a90560ef1aba730f3a9d.svg",
     "main.121834ec.css.map": "/Sample-Tutotials/static/css/main.121834ec.css.map",
-    "main.a5ded028.js.map": "/Sample-Tutotials/static/js/main.a5ded028.js.map",
+    "main.059e2c09.js.map": "/Sample-Tutotials/static/js/main.059e2c09.js.map",
     "787.a9120f67.chunk.js.map": "/Sample-Tutotials/static/js/787.a9120f67.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.121834ec.css",
-    "static/js/main.a5ded028.js"
+    "static/js/main.059e2c09.js"
   ]
 }
