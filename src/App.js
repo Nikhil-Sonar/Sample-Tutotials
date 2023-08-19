@@ -20,7 +20,7 @@ function App() {
         <BrowserRouter>
           <BlenHeaderRender />
           <Routes>
-            <Route exact path='/Sample-Tutotials/' element={[ <BlenDynamicCard />, <IDBPComp />, <BlenArticlesComp />, <BlenRankedComp />, <FormdataRender />]}></Route>
+            <Route exact path='/' element={[ <BlenDynamicCard />, <IDBPComp />, <BlenArticlesComp />, <BlenRankedComp />, <FormdataRender />]}></Route>
             <Route exact path='/igcse' element={<IbcscComp/>}></Route>
             <Route exact path='/ibdp' element={<IbdpComp/>}></Route>
             {/* <Route exact path='/testimonial' element={[<BlenCommunityComp />, <BlenChildCommunityComp />]}></Route> */}

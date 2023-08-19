@@ -193,7 +193,7 @@ form .form-row .textarea {
 }
 
 .d-block{
-    display: block;
+    display: block !important;
 }
 
 @media (max-width: 700px) {

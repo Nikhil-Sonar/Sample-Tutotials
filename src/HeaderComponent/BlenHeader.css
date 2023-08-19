@@ -140,3 +140,36 @@ select option {
     padding: 10px;
 }
 
+.section-1-Card{
+    position: relative;
+}
+
+.ibdp{
+    position: absolute;
+    top: 50px;
+    background-color: #fff;
+    padding: 0.5px 14px;
+    border-radius: 5px;
+}
+
+.igcse {
+    position: absolute;
+    top: 70px;
+    background-color: #fff;
+    padding: 0.5px 8px;
+    border-radius: 5px;
+}
+
+.header-subject-center{
+    margin-left: 110px;
+}
+
+.ibdp:hover {
+    background-color: #ccc;
+    color: #fff;
+}
+
+.igcse:hover {
+    background-color: #ccc;
+    color: #fff;
+}
