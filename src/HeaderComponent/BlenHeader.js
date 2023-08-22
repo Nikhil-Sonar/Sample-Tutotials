@@ -43,7 +43,7 @@ function BlenHeaderRender() {
                             </a>
                             <div className="subject-text-IBResources common-hover courses-text-parent" onClick={handleCourseText}>Courses
                                 <NavLink className="home-text" to={'/ibdp'}><div className={`Option-courses ibdp ${countCourse}`} id="myElement">IBDP</div></NavLink>
-                                <NavLink className="home-text" to={'/igcse'}><div className={`Option-courses igcse ${countCourse}`} id="myElement">IBCSC</div></NavLink>
+                                <NavLink className="home-text" to={'/igcse'}><div className={`Option-courses igcse ${countCourse}`} id="myElement">IGCSE</div></NavLink>
                             </div>
                             {/* <a className="subject-text-Tutors common-hover">
                             <NavLink className="home-text" to={"testimonial"}>Testimonials</NavLink>
