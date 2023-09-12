@@ -1,0 +1,113 @@
+.container-2 {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.content-2 {
+    width: 80%;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 50%;
+    color: white;
+    background-color: #fff;
+    border-radius: 30px;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    font-size: 17px;
+    transition: 0.4s;
+}
+
+.subject-table {
+    height: 60%;
+}
+
+.box-1 {
+    width: 100%;
+    margin-top: 30px;
+}
+
+h1, h2 {
+    font-family: sans-serif;
+    margin:40px 0 30px 0px;
+}
+
+#physics {
+    color: #524dff;
+    border: 3px solid #524dff;
+    background-color: black;
+}
+
+.box-1 button {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    height: 20%;
+    width: 25%;
+    font-size: 22px;
+    background: black;
+    outline: none;
+    transition: 0.4s;
+}
+
+#chemistry {
+    color: #ffcc00;
+    border: 3px solid #ffcc00;
+    background-color: black;
+}
+
+#biology {
+    color: #6eff8d;
+    border: 3px solid #6eff8d;
+    background-color: black;
+}
+
+#comp {
+    color: #947cf9;
+    border: 3px solid #947cf9;
+    background-color: black;
+}
+
+#economics {
+    color: #f830ff;
+    border: 3px solid #f830ff;
+    background-color: black;
+}
+
+#englit {
+    color: #ecadff;
+    border: 3px solid #ecadff;
+    background-color: black;
+}
+
+#englan {
+    color: #ff456d;
+    border: 3px solid #ff456d;
+    background-color: black;
+}
+
+#gp {
+    color: #00ff95;
+    border: 3px solid #00ff95;
+    background-color: black;
+}
+
+#addmath {
+    color: #84AEF8;
+    border: 3px solid #84AEF8;
+    background-color: black;
+}
+
+#intmath {
+    color: #f5b642;
+    border: 3px solid #f5b642;
+    background-color: black;
+}
+
+.content-2:hover{
+    box-shadow: inset 0px 0px 25px 1px;
+    border: 0px solid #f5b642;
+}
