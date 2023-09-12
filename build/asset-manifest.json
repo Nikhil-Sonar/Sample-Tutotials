@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a00db545.css",
+    "main.js": "/static/js/main.f90badfe.js",
+    "static/js/787.a9120f67.chunk.js": "/static/js/787.a9120f67.chunk.js",
+    "static/media/pexels-george-study-girl.jpg": "/static/media/pexels-george-study-girl.b7f1f002d053995ab7c6.jpg",
+    "static/media/Physical-img.jpg": "/static/media/Physical-img.336fb5818916c929e612.jpg",
+    "static/media/people-Group.jpg": "/static/media/people-Group.cfebde83828a33e19eec.jpg",
+    "static/media/laptop-girl.jpg": "/static/media/laptop-girl.cd0eae7f88558822b2cc.jpg",
+    "static/media/pexels-photo-classroom.webp": "/static/media/pexels-photo-classroom.f67df83db4eef9a4aa7b.webp",
+    "static/media/assigments.png": "/static/media/assigments.07dc68fb0ca3238bba03.png",
+    "static/media/questions.png": "/static/media/questions.28d12e66db2060be1c80.png",
+    "static/media/books.png": "/static/media/books.fa1554d4a08a97f4a71e.png",
+    "static/media/pexels-book.webp": "/static/media/pexels-book.2ed572d49018a75953c7.webp",
+    "static/media/math-science-Img.avif": "/static/media/math-science-Img.81823079a0dd18bc7496.avif",
+    "static/media/MindSetterLogo.jpg": "/static/media/MindSetterLogo.1950bb297aafb2ed0674.jpg",
+    "static/media/icon.png": "/static/media/icon.3466aafd55212cc0e258.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "static/media/circle-arrow-up-solid.svg": "/static/media/circle-arrow-up-solid.ffcf49096125a90560ef1aba730f3a9d.svg",
+    "main.a00db545.css.map": "/static/css/main.a00db545.css.map",
+    "main.f90badfe.js.map": "/static/js/main.f90badfe.js.map",
+    "787.a9120f67.chunk.js.map": "/static/js/787.a9120f67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a00db545.css",
+    "static/js/main.f90badfe.js"
+  ]
+}
