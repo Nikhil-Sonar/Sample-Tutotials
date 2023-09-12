@@ -30,7 +30,7 @@ function BlenFooterComp() {
                                     </div>
                                     <div className='Blen-footer-card-flx-1month-discription'>
                                         <div className='Blen-footer-card-flx-1month-discription-input-parent'>
-                                            <p className='Blen-footer-card-flx-1month-discription-txt ftsize-dis'>MINDSETTERS ACADEMY, 1NORTH BRIDGE ROAD, HIGH STREET CENTER, 14-04, SINGAPORE-179094 <br/> <span>Phone No :</span><span> +65 9899 6939</span><br/> <a target='_blank' href='https://www.google.com/maps/place/Mind+Setters+Academy,+Singapore/@1.2900089,103.8468583,17z/data=!3m2!4b1!5s0x31da199b63518251:0xef3f6e0148acc983!4m6!3m5!1s0x31da190c65001d87:0xd99e931ebca81686!8m2!3d1.2900089!4d103.8494332!16s%2Fg%2F11gxw071tv?entry=ttu' className='address-link'>ClickHere</a></p><br />
+                                            <p className='Blen-footer-card-flx-1month-discription-txt ftsize-dis'>MINDSETTERS ACADEMY, 1NORTH BRIDGE ROAD, HIGH STREET CENTER, 14-04, SINGAPORE- 179094 <br/> <span>Phone No :</span><span> +65 9899 6939</span><br/> <a target='_blank' href='https://www.google.com/maps/place/Mind+Setters+Academy,+Singapore/@1.2900089,103.8468583,17z/data=!3m2!4b1!5s0x31da199b63518251:0xef3f6e0148acc983!4m6!3m5!1s0x31da190c65001d87:0xd99e931ebca81686!8m2!3d1.2900089!4d103.8494332!16s%2Fg%2F11gxw071tv?entry=ttu' className='address-link'>ClickHere</a></p><br />
                                         </div>
                                         <div className='Blen-footer-card-flx-1month-discription-social-m'>
                                             <img src={logo1}></img>
